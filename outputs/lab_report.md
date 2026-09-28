@@ -2,7 +2,7 @@
 
 > File này **tự sinh** bởi `scripts/grade.py`. **Không** viết / sửa tay.
 
-- Generated (UTC): `2026-09-28T04:09:06.275212+00:00`
+- Generated (UTC): `2026-09-28T04:40:08.062681+00:00`
 - Framework: `google-adk`
 - Technical failure: **False**
 
@@ -40,7 +40,13 @@
 
 ```text
 ..........                                                               [100%]
-10 passed in 1.92s
+============================== warnings summary ===============================
+.venv\Lib\site-packages\_pytest\cacheprovider.py:469
+  D:\vinuni\K4-L3-Day11-NgoMinhThu-2A202602679-Guardrails-HITL-Responsible-AI\.venv\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path D:\vinuni\K4-L3-Day11-NgoMinhThu-2A202602679-Guardrails-HITL-Responsible-AI\.pytest_cache\v\cache\nodeids: [WinError 183] Cannot create a file when that file already exists: 'D:\\vinuni\\K4-L3-Day11-NgoMinhThu-2A202602679-Guardrails-HITL-Responsible-AI\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+10 passed, 1 warning in 2.03s
 ```
 
 ## Notes
